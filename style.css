@@ -11,7 +11,7 @@ html,body{
   height: 100%;
   width: 100%;
   place-items: center;
-  background: linear-gradient(315deg, #e2d4d4 0%, #8db7e3 74%,red 2%);
+  background: linear-gradient(315deg, #e2d4d4 0%, #8db7e3 74%);
 }
 .wrapper .button{
   display:inline-block;
@@ -88,4 +88,22 @@ h1{
     color: white;
     font-style: italic;
     margin-left: 1.5%;
+}
+.sticky{
+  position:-webkit-sticky;
+  position: fixed;
+  left: 38%;
+  top: 0;
+  border: 1px solid rgb(11, 1, 1);
+  background-color: #e13009;
+}
+h2{
+  text-align: center;
+  text-decoration: underline;
+  color:greenyellow
+  font-size: xx-large;
+}
+main{
+  text-align: center;
+  padding-top: 100px;
 }
